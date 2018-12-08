@@ -26,8 +26,10 @@ public class FirstActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String data="數據來自於活動1";
                 Intent intent = new Intent(FirstActivity.this, SecondActivity.class);
-                startActivity(intent);
+                intent.putExtra("extra_data",data);//在itent中暫時存放數據 參數爲 鍵與實際數據
+                startActivity(intent);// 跳轉到活動2
             }
         });
     }
