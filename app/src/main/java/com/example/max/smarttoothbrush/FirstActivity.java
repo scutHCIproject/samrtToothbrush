@@ -11,17 +11,13 @@ public class FirstActivity extends AppCompatActivity {
     private  Button mBtn1;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {//加載佈局，綁定事件
 
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.first_layout);//為當前活動加載一個佈局
 
-//        private void initView(){
-//            mBtn1 =findViewById(R.id.button1);
-//            bindOnClickLister(listen:this,mBtn1);
-//        }
 
+        /**測試*/
         Button button = (Button) findViewById(R.id.button1);
         button.setOnClickListener(new View.OnClickListener() {
             @Override

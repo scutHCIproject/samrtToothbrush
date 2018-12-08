@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/appicon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity android:name=".FirstActivity">
             //注冊一個活動
             <intent-filter>
@@ -17,7 +18,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity"></activity>
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".ThirdActivity"></activity>
     </application>
 
 </manifest>

@@ -6,7 +6,8 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="429dp"
+        android:background="#88d4f6"
         android:text="這是第一個佈局" />
 
     <Button
