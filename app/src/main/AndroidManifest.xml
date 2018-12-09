@@ -9,13 +9,16 @@
         android:roundIcon="@mipmap/appicon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Controller.MainActivity">
+        <activity android:name=".Controller.BasicActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Controller.CalenderActivity"></activity>
+        <activity android:name=".Controller.HomeActivity" />
+        <activity android:name=".Controller.CalenderActivity" />
+        <activity android:name=".Controller.UserInfoActivity"></activity>
     </application>
 
 </manifest>
