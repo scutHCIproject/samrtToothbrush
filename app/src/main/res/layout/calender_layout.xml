@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#80000000"
     tools:context=".Controller.CalenderActivity"
     tools:layout_editor_absoluteY="25dp">
 
 
     <android.support.constraint.ConstraintLayout
         android:id="@+id/dayAndNightLayout"
-        android:layout_width="250dp"
+        android:layout_width="259dp"
         android:layout_height="300dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
@@ -29,9 +30,7 @@
             android:layout_height="70dp"
             android:background="@drawable/shape_corner_down"
             android:gravity="center"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent">
+            tools:layout_editor_absoluteY="230dp">
 
             <!--星星图标-->
             <ImageView
