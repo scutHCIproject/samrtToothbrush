@@ -109,26 +109,107 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="378dp"
+            android:layout_height="match_parent"
             android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="66dp"
                 android:background="#88d4f8"
-                android:orientation="vertical">
-            </LinearLayout>
+                android:orientation="vertical"></LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="15dp"
-                android:orientation="vertical"></LinearLayout>
+                android:orientation="vertical">
+
+            </LinearLayout>
 
             <android.support.v7.widget.GridLayout
-                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                app:columnCount="7"
+                app:rowCount="1">
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:text="周一"
+                    app:layout_columnWeight="1"/>
+                <TextView
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:text="周二"
+                    app:layout_columnWeight="1"/>
+                <TextView
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:text="周三"
+                    app:layout_columnWeight="1"/>
+                <TextView
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:text="周四"
+                    app:layout_columnWeight="1"/>
+                <TextView
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:text="周五"
+                    app:layout_columnWeight="1"/>
+                <TextView
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:text="周六"
+                    app:layout_columnWeight="1"/>
+                <TextView
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:text="周日"
+                    app:layout_columnWeight="1"/>
+            </android.support.v7.widget.GridLayout>
+
+            <android.support.v7.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                app:columnCount="1"
+                app:rowCount="3">
+
+                <android.support.v7.widget.GridLayout
+                    android:background="#999"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1"
+                    app:columnCount="7"
+                    app:rowCount="1">
+
+                    <ImageView
+                        android:src="@drawable/star"
+                        android:layout_width="wrap_content"
+                        app:layout_columnWeight="1" />
+
+
+                </android.support.v7.widget.GridLayout>
+                <android.support.v7.widget.GridLayout
+                    android:background="#777"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+                    <ImageView
+                        android:src="@drawable/star"/>
+                </android.support.v7.widget.GridLayout>
+                <android.support.v7.widget.GridLayout
+                    android:background="#555"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+                    <ImageView
+                        android:src="@drawable/star"/>
+                </android.support.v7.widget.GridLayout>
 
             </android.support.v7.widget.GridLayout>
 
