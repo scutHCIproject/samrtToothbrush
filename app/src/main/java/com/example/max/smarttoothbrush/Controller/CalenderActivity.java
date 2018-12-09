@@ -5,11 +5,11 @@ import android.os.Bundle;
 
 import com.example.max.smarttoothbrush.R;
 
-public class CalendarActivity extends AppCompatActivity {
+public class CalenderActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_calendar);
+        setContentView(R.layout.calender_layout);
     }
 }

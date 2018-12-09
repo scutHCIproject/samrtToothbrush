@@ -16,7 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Controller.CalendarActivity"></activity>
+        <activity android:name=".Controller.CalenderActivity"></activity>
     </application>
 
 </manifest>
