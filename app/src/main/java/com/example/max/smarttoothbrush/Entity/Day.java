@@ -52,4 +52,8 @@ public class Day {
     public int getAward() {
         return award;
     }
+
+    public void setDate(Date date){
+        this.date = date;
+    }
 }
