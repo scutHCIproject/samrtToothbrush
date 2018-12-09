@@ -29,10 +29,6 @@ public class Day {
         this.award = award;
     }
 
-    public void setDate(Date date) {
-        this.date = date;
-    }
-
     public void setDayStar(int dayStar) {
         this.dayStar = dayStar;
     }

@@ -7,6 +7,7 @@ public class Plan {
     private Day[] dayList;
     private String goal;
 
+    //构造函数，自动根据第一天来填充后21天
     public Plan(Date startDay, String goal){
         this.goal = goal;
 
@@ -20,5 +21,10 @@ public class Plan {
             Date tomorrow = c.getTime();
             this.dayList[i].setDate(tomorrow);
         }
+    }
+
+    //number从0开始，即第一天为dayList[0]
+    public Day getDay(int number){
+        return dayList[number];
     }
 }
