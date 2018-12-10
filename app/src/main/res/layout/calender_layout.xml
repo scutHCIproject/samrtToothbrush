@@ -29,7 +29,7 @@
             android:layout_height="70dp"
             android:background="@drawable/shape_corner_down"
             android:gravity="center"
-            tools:layout_editor_absoluteY="230dp">
+            app:layout_constraintBottom_toBottomOf="parent">
 
             <!--星星图标-->
             <ImageView
