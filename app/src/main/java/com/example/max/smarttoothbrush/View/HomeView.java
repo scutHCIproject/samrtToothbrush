@@ -15,8 +15,13 @@ import com.example.max.smarttoothbrush.R;
 public class HomeView {
         private UserModel userModel;
         private TextView name,level,coin;
+<<<<<<< HEAD
         private ImageView avatar,home,logo,goal,la,ra,ava1,ava2;
         private LinearLayout L1, L2, L3,d1,d2,d3,d4,d5,d6,d7,d8,d9,d10,d11,d12,d13,d14,d15,d16,d17,d18,d19,d20,d21;
+=======
+        private ImageView avatar,home,logo,goal;
+        private LinearLayout L1,L2,L3;
+>>>>>>> 85145aae2c43ab1f20850afeb401d84b46093db2
         private FrameLayout L4;
         private TextView w1,w2,w3,w4,w5,w6,w7;
 
