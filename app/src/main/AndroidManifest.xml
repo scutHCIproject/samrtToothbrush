@@ -17,8 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".Controller.HomeActivity" />
-        <activity android:name=".Controller.CalenderActivity" />
-        <activity android:name=".Controller.UserInfoActivity"></activity>
+        <!--<activity android:name=".Controller.UserInfoActivity" />-->
+        <!-- <activity android:name="" -->
+        <!--<activity android:name=".View.HomeActivity"></activity>-->
     </application>
 
 </manifest>
