@@ -27,4 +27,8 @@ public class Plan {
     public Day getDay(int number){
         return dayList[number];
     }
+
+    public String getGoal() {
+        return goal;
+    }
 }

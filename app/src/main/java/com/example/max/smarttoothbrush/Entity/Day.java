@@ -6,7 +6,6 @@ public class Day {
     private Date date;
     private int dayStar;
     private int nightStar;
-    private int award;
 
     public Day(Date date) {
         this.date = date;
@@ -16,17 +15,12 @@ public class Day {
         this.date = date;
         this.dayStar = dayStar;
         this.nightStar = nightStar;
-        this.award = award;
     }
 
     public Day(Date date, int dayStar, int nightStar) {
         this.date = date;
         this.dayStar = dayStar;
         this.nightStar = nightStar;
-    }
-
-    public void setAward(int award) {
-        this.award = award;
     }
 
     public void setDayStar(int dayStar) {
@@ -47,10 +41,6 @@ public class Day {
 
     public int getNightStar() {
         return nightStar;
-    }
-
-    public int getAward() {
-        return award;
     }
 
     public void setDate(Date date){
