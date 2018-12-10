@@ -45,7 +45,6 @@ public class HomeActivity extends AppCompatActivity {
                 userinfoDialog.show();
             }
         });
-
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
