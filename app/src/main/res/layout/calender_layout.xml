@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#80000000"
-    tools:context=".Controller.CalenderActivity"
+    android:layout_gravity="center"
     tools:layout_editor_absoluteY="25dp">
 
 
@@ -34,6 +33,7 @@
 
             <!--星星图标-->
             <ImageView
+                android:id="@+id/starimg"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_gravity="center"

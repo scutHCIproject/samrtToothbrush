@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#e0000000"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
     <android.support.constraint.ConstraintLayout
         android:id="@+id/constraintLayout2"
@@ -14,13 +13,13 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <android.support.constraint.ConstraintLayout
-            android:id="@+id/constraintLayout"
+            android:id="@+id/userlayout1"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:background="@drawable/user_info_shape">
 
             <ImageView
-                android:id="@+id/imageView5"
+                android:id="@+id/avatar1"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_marginStart="20dp"
@@ -37,7 +36,7 @@
                 android:layout_marginTop="20dp"
                 android:text="上次同步"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+                app:layout_constraintTop_toBottomOf="@+id/avatar1" />
 
             <ImageView
                 android:id="@+id/imageView6"
@@ -50,7 +49,7 @@
                 app:srcCompat="@drawable/user_level" />
 
             <TextView
-                android:id="@+id/testlevel1"
+                android:id="@+id/level"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
@@ -65,18 +64,18 @@
                 android:layout_height="25dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="5dp"
-                app:layout_constraintStart_toEndOf="@+id/testlevel1"
+                app:layout_constraintStart_toEndOf="@+id/level"
                 app:layout_constraintTop_toTopOf="@+id/imageView6"
                 app:srcCompat="@drawable/coin" />
 
             <TextView
-                android:id="@+id/textcoin2"
+                android:id="@+id/coin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:text="10"
                 app:layout_constraintStart_toEndOf="@+id/imageView9"
-                app:layout_constraintTop_toTopOf="@+id/testlevel1" />
+                app:layout_constraintTop_toTopOf="@+id/level" />
 
             <ImageView
                 android:id="@+id/imageView10"
@@ -84,18 +83,18 @@
                 android:layout_height="30dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="25dp"
-                app:layout_constraintStart_toEndOf="@+id/textcoin2"
+                app:layout_constraintStart_toEndOf="@+id/coin"
                 app:layout_constraintTop_toBottomOf="@+id/textView5"
                 app:srcCompat="@drawable/star" />
 
             <TextView
-                android:id="@+id/textView9"
+                android:id="@+id/star"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:text="10"
                 app:layout_constraintStart_toEndOf="@+id/imageView10"
-                app:layout_constraintTop_toTopOf="@+id/textcoin2" />
+                app:layout_constraintTop_toTopOf="@+id/coin" />
 
             <LinearLayout
                 android:id="@+id/linearLayout"
@@ -107,7 +106,7 @@
                 app:layout_constraintEnd_toEndOf="parent">
 
                 <TextView
-                    android:id="@+id/textView12"
+                    android:id="@+id/todnum"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:text="10"
@@ -130,7 +129,7 @@
                 app:layout_constraintEnd_toStartOf="@+id/linearLayout">
 
                 <TextView
-                    android:id="@+id/textView11"
+                    android:id="@+id/yesnum"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:text="1"
@@ -146,7 +145,7 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/textView14"
+                android:id="@+id/time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
@@ -157,31 +156,30 @@
         </android.support.constraint.ConstraintLayout>
 
         <android.support.constraint.ConstraintLayout
+            android:id="@+id/userinfolayout2"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:background="#4AABE1"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+            app:layout_constraintTop_toBottomOf="@+id/userlayout1">
 
             <ImageView
-                android:id="@+id/imageView12"
+                android:id="@+id/avatar2"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="5dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/images" />
+                app:srcCompat="@drawable/images"
+                tools:layout_editor_absoluteX="10dp"
+                tools:layout_editor_absoluteY="5dp" />
 
             <TextView
-                android:id="@+id/textView15"
+                android:id="@+id/name2"
                 android:layout_width="40dp"
                 android:layout_height="15dp"
                 android:layout_marginStart="10dp"
                 android:text="aaa"
                 android:textAlignment="center"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+                app:layout_constraintTop_toBottomOf="@+id/avatar2" />
 
         </android.support.constraint.ConstraintLayout>
 
