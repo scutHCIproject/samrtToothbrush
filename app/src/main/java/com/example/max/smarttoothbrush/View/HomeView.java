@@ -14,7 +14,7 @@ public class HomeView {
         private UserModel userModel;
         private TextView name,level,coin;
         private ImageView avatar,home,logo,goal;
-        private LinearLayout L1, L2, L3;
+        private LinearLayout L1,L2,L3;
         private FrameLayout L4;
         private TextView w1,w2,w3,w4,w5,w6,w7;
 
