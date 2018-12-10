@@ -11,6 +11,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.max.smarttoothbrush.R;
+import com.example.max.smarttoothbrush.View.UserinfoDialog;
 
 public class HomeActivity extends AppCompatActivity {
     int role=1;
@@ -67,7 +68,7 @@ public class HomeActivity extends AppCompatActivity {
         avatar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(HomeActivity.this,UserInfoActivity.class);
+                Intent intent=new Intent(HomeActivity.this, UserinfoDialog.class);
                 intent.putExtra("user",role);
                 startActivity(intent);
             }
