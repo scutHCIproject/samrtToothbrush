@@ -17,9 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".Controller.HomeActivity" />
-        <!--<activity android:name=".Controller.UserInfoActivity" />-->
+        <!-- <activity android:name=".Controller.UserInfoActivity" /> -->
         <!-- <activity android:name="" -->
-        <!--<activity android:name=".View.HomeActivity"></activity>-->
+        <!-- <activity android:name=".View.HomeActivity"></activity> -->
+        <activity android:name=".View.UserInfoActivity"></activity>
     </application>
 
 </manifest>

@@ -11,31 +11,33 @@ public class UserModel {
     }
 
     public String dealLevel(String name){
-        if(name.equals("username1"))
-            return "1l";
+        if(name.equals("boy"))
+            return "5";
         else
-            return null;
+            return "8";
     }
 
     public String dealCoin(String name){
-        if(name.equals("username1"))
-            return "1c";
+        if(name.equals("boy"))
+            return "13";
         else
-            return null;
+            return "12";
     }
 
     public String dealStar(String name){
-        if(name.equals("username1"))
-            return "1s";
+        if(name.equals("boy"))
+            return "17";
         else
-            return null;
+            return "30";
     }
 
     public int dealSex(String name){
-        if(name.equals("username1"))
+        if(name.equals("boy"))
             return 1;
         else
             return 0;
     }
+
+
 
 }

@@ -35,13 +35,11 @@
             android:id="@+id/imgavatar"
             android:layout_width="50dp"
             android:layout_height="50dp"
-
             android:layout_marginLeft="25dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="15dp"
             android:layout_marginBottom="5dp"
-
-            app:srcCompat="@drawable/images" />
+            app:srcCompat="@drawable/ava2" />
 
         <TextView
             android:id="@+id/textname"
@@ -231,11 +229,11 @@
             android:background="#4ee2b7"
             android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/imageView11"
+            <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/award5" />
+                android:layout_height="match_parent">
+
+            </FrameLayout>
         </LinearLayout>
 
         <LinearLayout
@@ -245,11 +243,11 @@
             android:background="#4ee2b7"
             android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/imageView"
+            <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/award4" />
+                android:layout_height="match_parent">
+
+            </FrameLayout>
         </LinearLayout>
 
         <LinearLayout
@@ -259,11 +257,24 @@
             android:background="#4ee2b7"
             android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/imageView2"
+            <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/award2" />
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/star" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="7"
+                    android:textAlignment="center" />
+            </FrameLayout>
         </LinearLayout>
 
         <LinearLayout
@@ -273,11 +284,11 @@
             android:background="#4ee2b7"
             android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/imageView3"
+            <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/award7" />
+                android:layout_height="match_parent">
+
+            </FrameLayout>
         </LinearLayout>
 
         <LinearLayout
@@ -285,28 +296,69 @@
             android:layout_width="57dp"
             android:layout_height="98dp"
             android:background="#4ee2b7"
-            android:orientation="vertical"></LinearLayout>
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+        </LinearLayout>
 
         <LinearLayout
             android:id="@+id/day6"
             android:layout_width="57dp"
             android:layout_height="98dp"
             android:background="#4ee2b7"
-            android:orientation="vertical"></LinearLayout>
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+        </LinearLayout>
 
         <LinearLayout
             android:id="@+id/day7"
             android:layout_width="57dp"
             android:layout_height="98dp"
             android:background="#4ee2b7"
-            android:orientation="vertical"></LinearLayout>
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+        </LinearLayout>
 
         <LinearLayout
             android:id="@+id/day8"
             android:layout_width="57dp"
             android:layout_height="98dp"
             android:background="#66d3f9"
-            android:orientation="vertical"></LinearLayout>
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/star" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="7"
+                    android:textAlignment="center" />
+            </FrameLayout>
+        </LinearLayout>
 
         <LinearLayout
             android:id="@+id/day9"
@@ -329,9 +381,9 @@
                     android:id="@+id/textView"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:textAlignment="center"
                     android:gravity="center"
-                    android:text="9" />
+                    android:text="7"
+                    android:textAlignment="center" />
             </FrameLayout>
         </LinearLayout>
 
@@ -340,14 +392,28 @@
             android:layout_width="57dp"
             android:layout_height="98dp"
             android:background="#66d3f9"
-            android:orientation="vertical"></LinearLayout>
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+        </LinearLayout>
 
         <LinearLayout
             android:id="@+id/day11"
             android:layout_width="57dp"
             android:layout_height="98dp"
             android:background="#66d3f9"
-            android:orientation="vertical"></LinearLayout>
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+        </LinearLayout>
 
         <LinearLayout
             android:id="@+id/day12"
@@ -356,11 +422,11 @@
             android:background="#66d3f9"
             android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/imageView4"
+            <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/award3" />
+                android:layout_height="match_parent">
+
+            </FrameLayout>
         </LinearLayout>
 
         <LinearLayout
@@ -368,21 +434,42 @@
             android:layout_width="57dp"
             android:layout_height="98dp"
             android:background="#66d3f9"
-            android:orientation="vertical"></LinearLayout>
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+        </LinearLayout>
 
         <LinearLayout
             android:id="@+id/day14"
             android:layout_width="57dp"
             android:layout_height="98dp"
             android:background="#66d3f9"
-            android:orientation="vertical"></LinearLayout>
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+        </LinearLayout>
 
         <LinearLayout
             android:id="@+id/day15"
             android:layout_width="57dp"
             android:layout_height="98dp"
             android:background="#40b6dd"
-            android:orientation="vertical"></LinearLayout>
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+        </LinearLayout>
 
         <LinearLayout
             android:id="@+id/day16"
@@ -391,11 +478,11 @@
             android:background="#40b6dd"
             android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/imageView14"
+            <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/award1" />
+                android:layout_height="match_parent">
+
+            </FrameLayout>
         </LinearLayout>
 
         <LinearLayout
@@ -403,7 +490,27 @@
             android:layout_width="57dp"
             android:layout_height="98dp"
             android:background="#40b6dd"
-            android:orientation="vertical"></LinearLayout>
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/star" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="7"
+                    android:textAlignment="center" />
+            </FrameLayout>
+        </LinearLayout>
 
         <LinearLayout
             android:id="@+id/day18"
@@ -412,11 +519,11 @@
             android:background="#40b6dd"
             android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/imageView13"
+            <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/award8" />
+                android:layout_height="match_parent">
+
+            </FrameLayout>
         </LinearLayout>
 
         <LinearLayout
@@ -424,21 +531,55 @@
             android:layout_width="57dp"
             android:layout_height="98dp"
             android:background="#40b6dd"
-            android:orientation="vertical"></LinearLayout>
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+        </LinearLayout>
 
         <LinearLayout
             android:id="@+id/day20"
             android:layout_width="57dp"
             android:layout_height="98dp"
             android:background="#40b6dd"
-            android:orientation="vertical"></LinearLayout>
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/star" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="7"
+                    android:textAlignment="center" />
+            </FrameLayout>
+        </LinearLayout>
 
         <LinearLayout
             android:id="@+id/day21"
             android:layout_width="57dp"
             android:layout_height="98dp"
             android:background="#40b6dd"
-            android:orientation="vertical"></LinearLayout>
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+        </LinearLayout>
 
 
 

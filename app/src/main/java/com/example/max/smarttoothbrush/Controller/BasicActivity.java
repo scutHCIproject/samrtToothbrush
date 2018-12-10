@@ -28,7 +28,7 @@ public class BasicActivity extends AppCompatActivity{
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(BasicActivity.this,HomeActivity.class);
-                intent.putExtra("login","username1");
+                intent.putExtra("login","boy");
                 startActivity(intent);
             }
         });
@@ -36,7 +36,7 @@ public class BasicActivity extends AppCompatActivity{
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(BasicActivity.this,HomeActivity.class);
-                intent.putExtra("login","username2");
+                intent.putExtra("login","girl");
                 startActivity(intent);
             }
         });
