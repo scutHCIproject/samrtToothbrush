@@ -6,8 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 public class DataAccessObject extends AppCompatActivity {
     private SharedPreferences sharedPreference;
     private SharedPreferences.Editor editor;
-    private String fileName;
-    private Boolean isCreated;
+    private String fileName; //文件名
+    private Boolean isCreated; //判断文件是否存在
 
     //构造函数，指定一个文件名
     public DataAccessObject(String fileName) {
