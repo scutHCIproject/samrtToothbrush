@@ -137,59 +137,66 @@
                 app:rowCount="1">
 
                 <TextView
-                    android:textColor="#40b6dd"
+                    android:id="@+id/w1"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:text="周一"
                     android:textAlignment="center"
+                    android:textColor="#40b6dd"
                     app:layout_columnWeight="1" />
 
                 <TextView
-                    android:textColor="#40b6dd"
+                    android:id="@+id/w2"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:text="周二"
                     android:textAlignment="center"
+                    android:textColor="#40b6dd"
                     app:layout_columnWeight="1" />
 
                 <TextView
-                    android:textColor="#40b6dd"
+                    android:id="@+id/w3"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:text="周三"
                     android:textAlignment="center"
+                    android:textColor="#40b6dd"
                     app:layout_columnWeight="1" />
 
                 <TextView
-                    android:textColor="#40b6dd"
+                    android:id="@+id/w4"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:text="周四"
                     android:textAlignment="center"
+                    android:textColor="#40b6dd"
                     app:layout_columnWeight="1" />
 
                 <TextView
-                    android:textColor="#40b6dd"
+                    android:id="@+id/w5"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:text="周五"
                     android:textAlignment="center"
+                    android:textColor="#40b6dd"
                     app:layout_columnWeight="1" />
 
                 <TextView
-                    android:textColor="#40b6dd"
+                    android:id="@+id/w6"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:text="周六"
                     android:textAlignment="center"
+                    android:textColor="#40b6dd"
                     app:layout_columnWeight="1" />
 
                 <TextView
-                    android:textColor="#40b6dd"
+                    android:id="@+id/w7"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:text="周日"
                     android:textAlignment="center"
+                    android:textColor="#40b6dd"
                     app:layout_columnWeight="1" />
             </android.support.v7.widget.GridLayout>
 
