@@ -35,6 +35,10 @@ public class User {
         return littleStar;
     }
 
+    public Plan getPlan() {
+        return plan;
+    }
+
     public void setMaxStar(int maxStar) {
         this.maxStar = maxStar;
     }
