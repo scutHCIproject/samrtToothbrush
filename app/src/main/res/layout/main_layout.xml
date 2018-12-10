@@ -51,7 +51,7 @@
             android:layout_marginRight="15dp"
             android:layout_marginBottom="0dp"
 
-            android:text="TextView" />
+            android:text="username" />
 
         <ImageView
             android:id="@+id/imglevel"
@@ -75,7 +75,7 @@
             android:layout_marginRight="15dp"
             android:layout_marginBottom="0dp"
 
-            android:text="TextView" />
+            android:text="level" />
 
         <ImageView
             android:id="@+id/imgcoin"
@@ -99,7 +99,7 @@
             android:layout_marginRight="15dp"
             android:layout_marginBottom="0dp"
 
-            android:text="TextView" />
+            android:text="coin" />
 
     </LinearLayout>
 
@@ -129,8 +129,7 @@
             <android.support.v7.widget.GridLayout
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
+
                 app:columnCount="7"
                 app:rowCount="1">
 
@@ -216,9 +215,9 @@
 
     <android.support.v7.widget.GridLayout
         android:layout_width="match_parent"
-        android:layout_height="299dp"
-        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="fill"
+        android:layout_margin="5dp"
         app:columnCount="7"
         app:rowCount="3">
 
@@ -462,7 +461,8 @@
             android:layout_width="57dp"
             android:layout_height="98dp"
             android:background="#40b6dd"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            >
 
             <FrameLayout
                 android:layout_width="match_parent"
@@ -582,7 +582,6 @@
         </LinearLayout>
 
 
-
     </android.support.v7.widget.GridLayout>
 
     <FrameLayout
@@ -599,18 +598,19 @@
 
             <ImageView
                 android:id="@+id/imggoal"
-                android:layout_width="150dp"
-                android:layout_height="match_parent"
-                android:src="@drawable/goal_boy"
-                android:layout_marginLeft="10dp"/>
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/goal_boy" />
 
             <TextView
-                android:layout_width="match_parent"
+                android:id="@+id/goal"
+                android:layout_width="263dp"
                 android:layout_height="50dp"
                 android:background="@drawable/bubble"
-                android:textAlignment="center"
                 android:gravity="center"
-                android:text="我要在10天内获得10个星星"/>
+                android:text="我要在10天内获得10个星星"
+                android:textAlignment="center" />
         </LinearLayout>
 
 

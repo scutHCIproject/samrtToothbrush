@@ -1,33 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_gravity="center"
-    tools:layout_editor_absoluteY="25dp">
-
-    <!--android:background="@drawable/shape_corner"-->
     <android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/dayAndNightLayout"
         android:layout_width="259dp"
         android:layout_height="300dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_gravity="center"
         android:background="#88d4f8"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        >
 
         <!--下方展示星星和星星数的layout-->
         <LinearLayout
             android:id="@+id/dataLayout"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:background="@drawable/shape_corner_down"
+            android:background="#0099CC"
             android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent">
 
@@ -89,4 +76,3 @@
             app:srcCompat="@drawable/arrow_left_template" />
 
     </android.support.constraint.ConstraintLayout>
-</android.support.constraint.ConstraintLayout>

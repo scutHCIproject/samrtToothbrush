@@ -8,13 +8,15 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import com.example.max.smarttoothbrush.Controller.BasicActivity;
+import com.example.max.smarttoothbrush.Model.UserModel;
 import com.example.max.smarttoothbrush.R;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Random;
 
 public class UserInfoActivity extends AppCompatActivity {
     private ImageView avatar1,avatar2;
-    private TextView time,name2;
+    private TextView time,name2,level,coin,star,yesnum,todnum;
     private ConstraintLayout L1,L2;
 
 
@@ -27,13 +29,24 @@ public class UserInfoActivity extends AppCompatActivity {
         avatar2=(ImageView)findViewById(R.id.avatar2);
         time=(TextView)findViewById(R.id.time);
         name2=(TextView)findViewById(R.id.name2);
+        level=(TextView)findViewById(R.id.level);
+        coin=(TextView)findViewById(R.id.coin);
+        star=(TextView)findViewById(R.id.star);
+        yesnum=(TextView)findViewById(R.id.yesnum);
+        todnum=(TextView)findViewById(R.id.todnum);
         L1=(ConstraintLayout)findViewById(R.id.userinfolayout1);
         L2=(ConstraintLayout)findViewById(R.id.userinfolayout2);
 
-        SimpleDateFormat formatter = new SimpleDateFormat("yyyy年MM月dd日 HH:mm:ss");
-        Date curDate = new Date(System.currentTimeMillis());//获取当前时间
-        String str  = formatter.format(curDate);
-        time.setText(str);
+
+        UserModel userModel=new UserModel();
+
+        /**info*/
+        time.setText(userModel.getDate());
+        level.setText(userModel.getLevel());
+        coin.setText(userModel.getCoin());
+        star.setText(userModel.getStar());
+        yesnum.setText(userModel.getyestodayStar());
+        todnum.setText(userModel.gettodayStar());
 
         Intent intent=this.getIntent();
         final String msg = intent.getStringExtra("theme");

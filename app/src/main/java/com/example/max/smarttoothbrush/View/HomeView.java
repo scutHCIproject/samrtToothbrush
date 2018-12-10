@@ -7,6 +7,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.example.max.smarttoothbrush.Entity.Plan;
+import com.example.max.smarttoothbrush.Model.PlanModel;
 import com.example.max.smarttoothbrush.Model.UserModel;
 import com.example.max.smarttoothbrush.R;
 
@@ -54,7 +56,6 @@ public class HomeView {
             d5=(LinearLayout)(context.findViewById(R.id.day5));
             d6=(LinearLayout)(context.findViewById(R.id.day6));
             d7=(LinearLayout)(context.findViewById(R.id.day7));
-
             d8=(LinearLayout)(context.findViewById(R.id.day8));
             d9=(LinearLayout)(context.findViewById(R.id.day9));
             d10=(LinearLayout)(context.findViewById(R.id.day10));
@@ -62,7 +63,6 @@ public class HomeView {
             d12=(LinearLayout)(context.findViewById(R.id.day12));
             d13=(LinearLayout)(context.findViewById(R.id.day13));
             d14=(LinearLayout)(context.findViewById(R.id.day14));
-
             d15=(LinearLayout)(context.findViewById(R.id.day15));
             d16=(LinearLayout)(context.findViewById(R.id.day16));
             d17=(LinearLayout)(context.findViewById(R.id.day17));
@@ -77,9 +77,11 @@ public class HomeView {
 
         public void initInfo(String msg){//参数为username
             UserModel userModel=new UserModel();
+            PlanModel planModel=new PlanModel();
             name.setText(msg);
             level.setText(userModel.dealLevel(msg));
             coin.setText(userModel.dealCoin(msg));
+//            goal.setText(planModel.getGoal());
         }
 
         public void initView(int sex){
@@ -89,10 +91,6 @@ public class HomeView {
                     home.setImageResource(R.drawable.homebutton_girl);
                     logo.setImageResource(R.drawable.logo_girl);
                     goal.setImageResource(R.drawable.goal_girl);
-//                    la.setImageResource(R.drawable.arrow_left_templateg2);
-//                    ra.setImageResource(R.drawable.arrow_left_templateg);
-//                    ava1.setImageResource(R.drawable.ava1);
-//                    ava2.setImageResource(R.drawable.ava2);
 
                     L1.setBackgroundColor(Color.parseColor("#f9bbdb"));
                     L2.setBackgroundColor(Color.parseColor("#f9bbdb"));
